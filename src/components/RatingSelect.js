@@ -1,5 +1,5 @@
 import { useState, useContext, useEffect } from 'react';
-import FeedbackContext, { FeedbackProvider } from '../context/FeedbackContext';
+import FeedbackContext from '../context/FeedbackContext';
 
 
 function RatingSelect({select}){
